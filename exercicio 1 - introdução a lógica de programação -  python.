@@ -1,0 +1,10 @@
+# programa para a exibição do nome de 3 pessoas:
+
+nome1= input("Digite o primeiro nome: ")
+nome2= input("Digite o segundo nome: ")
+nome3= input("Digite o terceiro nome: ")
+
+print(nome1, nome2, nome3)
+
+# print formatado 
+print(f"{nome1} {nome2} {nome3}")
