@@ -1,0 +1,8 @@
+# algoritimo que recebe dois números informados pelo usuário e exibe os mesmos em ordem crescente
+print ("Ordenando os números:\n")
+num1=int(input("Digite o primeiro número:"))
+num2=int(input("Digite o segundo número:"))
+if num1 > num2:
+    print("Esta é a ordem correta dos números:", num2, num1)
+else:
+    print("Esta é a ordem correta dos números:", num1, num2)
