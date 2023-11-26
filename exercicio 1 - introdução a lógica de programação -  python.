@@ -4,7 +4,9 @@ nome1= input("Digite o primeiro nome: ")
 nome2= input("Digite o segundo nome: ")
 nome3= input("Digite o terceiro nome: ")
 
+# opções de prints
+#print simples:
 print(nome1, nome2, nome3)
 
-# print formatado 
+# print formatado:
 print(f"{nome1} {nome2} {nome3}")
