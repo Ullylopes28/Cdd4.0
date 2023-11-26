@@ -1,0 +1,13 @@
+# programa que realiza a leitura de 2 números, efetua as 4 operações matemáticas e exibe os resultados:
+numero1= input("Digite o primeiro número: ")
+numero2=input("Digite o segundo número: ")
+soma=int(numero1) + int(numero2)
+subtracao= int(numero1) - int(numero2)
+multiplicacao= float(numero1) * float(numero2)
+divisao= float(numero1) / float(numero2)
+
+#exibição dos resultados:
+print(soma)
+print(subtracao)
+print(multiplicacao)
+print(divisao)
