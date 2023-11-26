@@ -1,7 +1,11 @@
-# programa para realizar a leitura do nome de uma pessoa, sua idade, e o seu salário; realize a exibição dos resultados na tela.
+# programa para realizar a leitura do nome de uma pessoa,sua idade, e o seu salário; realize a exibição dos resultados na tela
 
-nome= input("Digite aqui o seu nome:")
-idade= int(input("Digite aqui a sua idade:"))
+nome_funcionario= input("Digite aqui o seu nome:")
+idade_funcionario= int(input("Digite aqui a sua idade:"))
 salario= float(input("Digite aqui o seu salário"))
-informacoes= (nome, idade , salario)
-print(informacoes)
+informacoes= (nome_funcionario, idade_funcionario , salario)
+# print simples
+print (informacoes)
+
+#print formatado
+print( " O funcionario:", nome_funcionario, "tem um salário no valor de R$ :",salario,",e a sua idade é:",idade_funcionario)
