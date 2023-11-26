@@ -1,0 +1,6 @@
+# código para recebimento de número, digitado pelo usuário, que identifica e exibe na tela se o número é par ou ímpar: 
+numero= int(input("Digite o número aqui: "))
+if numero%2==0:
+    print(numero,"O número digitado é par!")
+else:
+    print(numero, "O número digitado é impar! ")
