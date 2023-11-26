@@ -1,0 +1,12 @@
+# algoritmo que armazene dois valores em duas variáveis dinstintas, realize a troca desses valores e exiba o resultado:
+a=150
+b=300
+# exibição do conteúdo das variáveis:
+print("O valor atual da variável A é:", a)
+print("O valor atual da variável B é:", b)
+# realização da troca dos valores das variáveis, com adicção da variável "troca", como auxiliar:
+troca=a
+a=b
+b=troca
+#exibição do resultado:
+print(" Após a troca, O valor de A, é:" ,a, " e o valor de B, é:",b,)
