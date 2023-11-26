@@ -1,4 +1,4 @@
-# programa para a exibição do nome de 3 pessoas:
+# programa para a exibição dos nomes de 3 pessoas:
 
 nome1= input("Digite o primeiro nome: ")
 nome2= input("Digite o segundo nome: ")
