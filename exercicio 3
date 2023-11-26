@@ -8,4 +8,4 @@ informacoes= (nome_funcionario, idade_funcionario , salario)
 print (informacoes)
 
 #print formatado
-print( " O funcionario:", {nome_funcionario}, "tem um salário no valor de R$ :",{salario},",e a sua idade é:",{idade_funcionario})
+print( " O funcionario:", {nome_funcionario}, "tem um salário no valor de R$ :",{salario},",e a sua idade é:",{idade_funcionario}"anos")
