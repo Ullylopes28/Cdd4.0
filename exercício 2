@@ -1,0 +1,8 @@
+# programa para realizar cálculo de duas notas e exibir resultado da média em conjunto com o nome do aluno
+
+aluno= input(" Digite o nome do aluno: ")
+nota1= int(input("Digite a primeira nota:"))
+nota2= int(input("Digite a segunda nota: "))
+media= (nota1+nota2)/2
+
+print("Olá aluno(a):",aluno,"sua média é:",media)
