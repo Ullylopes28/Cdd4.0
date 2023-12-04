@@ -1,0 +1,8 @@
+# algoritmo para a leitura de um número maior ou menor que 10, exibindo erro caso o número 10 seja digitado. 
+num1 = int(input("Digite número: "))
+if num1 > 10:
+    print(f"{num1} é maior que 10")
+elif num1 < 10:
+    print(f"{num1} é menor que 10")
+else:
+    print("opa! número inválido. Digite um numero diferente de 10")
